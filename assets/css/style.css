@@ -1,3 +1,25 @@
-body {
-    font-family: arial;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Open+Sans:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+body {
+    font-family: pt+sans, sans-serif;
+    font weight: 300;
+    color: lightblue;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: open+sans, sans-serif;
+    text-transform: capitalize
+    color: cyan;
+}
+
+#header-image {
+    float: left;
+    width: 250px;
+    height: 150px;
+    content: url('../images/header-image.png')    }
