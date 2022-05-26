@@ -7,7 +7,7 @@
 body{
     font-family: playfair display, sans-serif;
     font-weight: 300;
-    color: #000000;
+    color: lightblue;
 
 }
 
@@ -16,5 +16,9 @@ body{
 h1, h2 {
    font-family: Open+Sans:wght@300, sans-serif;
    text-transform: capitalize;
+   font-color: cyan;
+}
 
+#logo {
+    font-size: 24px;
 }
