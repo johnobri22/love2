@@ -23,3 +23,17 @@ h1, h2 {
     width: 250px;
     height: 150px;
     content: url('../images/header-image.png')    }
+
+    /* navigation links */
+
+    #menu {
+        font-size: 110%;
+        letter-spacing: 5px;
+    }
+
+    #menu li {
+        float: right;
+        list-style-type: upper-roman;
+        margin-right: 30px;
+    
+    }
