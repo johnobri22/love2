@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Open+Sans:wght@800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: none;
 }
+
 body {
     font-family: pt+sans, sans-serif;
-    font weight: 300;
-    color: lightblue;
+    font-weight:300;
+    color:black;
+    font-size:;
 }
 
 /* headings and logo */
 
 h1, h2 {
     font-family: open+sans, sans-serif;
-    text-transform: capitalize
-    color: cyan;
+    text-transform: capitalize;
+    color: red;
 }
 
-#header-image {
+
+
+/*#header-image {
     float: left;
     width: 250px;
     height: 150px;
@@ -26,13 +31,104 @@ h1, h2 {
 
     /* navigation links */
 
-    #menu {
-        font-size: 110%;
+    .menu {
+        font-size: 3em;
         letter-spacing: 5px;
+        color: red;
+        margin-top: 0;
+        padding-top: 0;
+    } 
+
+    .menu li {
+        float:right;
+        list-style-type:upper-roman;
+        margin-right:2em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color:red;
+    }
+   
+    /*hero image & text */
+    .heroimage{
+        height: 500px;
+        background-image: url('../images/act\ hero\ resized.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        overflow: hidden;
     }
 
-    #menu li {
-        float: right;
-        list-style-type: upper-roman;
-        margin-right: 30px;
+    .herotext{
+        text-align: center;
+    	position: absolute;
+        top: 60%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        color: black;
+        padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-width: 2px;
+border-style: dashed;
+border-color: blue;
     }
+
+    aside {
+        width: 15%;
+        bottom: 60%;
+        right: 35%;
+        float: right;
+        font-style: bold;
+        background-color: yellow;
+        color:red;
+        font-size: 2em;
+        font-weight: 600;
+        margin: 2% 2%;
+      }
+
+table, td {
+    border:1px solid black;
+    }
+
+.classes {
+    background-image: url('../images/amp2.jpg') ;
+    height: /*600px*/ 26em ;
+    width: 100%;
+}
+
+.classes div{
+    width:13em;
+    height: 13em;
+    float:left;
+    border-radius: 50%;
+    text-align: center;
+    margin: 6%;
+    background-color: white;
+    
+}
+
+#wrap {
+    float:left;
+}
+
+.summary {
+    text-align: center;
+}
+
+footer {
+    height:13em;
+}
+
+.socialmedia > li{
+    text-align: center;
+    display: inline;
+}
+
+.socialmedia {
+    font-size: 5em;
+    margin: 1em;
+    padding: 1em;
+}
