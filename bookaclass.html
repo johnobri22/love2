@@ -41,30 +41,28 @@
                 </ol>
             </nav>
         </header>
-        <br>
-     <section>
-        <div id="backgroundlinks">
-            <div id="linkstext">
-                <table>
-                    <tr>
-                        <th>
-                            <a href="https://youtu.be/CfPz1c07IsQ">The origins of acting and "The Method"</a>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <a href="https://youtu.be/wYLEBAnQXFI">Stage Acting: The History of Acting</a>
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>
-                            <a href="https://youtu.be/iB1fPZX5Zgk">How Stanislavski reinvented the craft of acting</a>
-                        </th>
-                    </tr>
-                </table>
-            </div>
-        </div>    
-    </section>   
+        <section class="signup-form" class="form-section">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>Let's get you signed up!</h2>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" required>
+                
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" required>
+                
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" required>
+                
+                <label for="road">Road</label>
+                <input type="radio" id="road" name="running_preference" value="road" required>
+                <label for="trail">Trail</label>
+                <input type="radio" id="trail" name="running_preference" value="trail" required>
+                <label for="both">Both</label>
+                <input type="radio" id="both" name="running_preference" value="both" required>
+                
+                <input class="join-button" type="submit" value="Let's Run!">
+            </form>
+        </section>
     <footer>
         <ul style="list-style: none;" class="socialmedia">
             <li>
